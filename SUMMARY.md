@@ -1,6 +1,6 @@
 # Summary
 
 * [Introducton](documentation/Introducton.md)
-* Hardware
+* [Hardware](documentation/Hardware.md)
 * Software
 
