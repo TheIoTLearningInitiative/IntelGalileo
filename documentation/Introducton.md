@@ -3,4 +3,4 @@
 # Software
 
 ## Links
-- http://download.intel.com/support/galileo/sb/galileo_boarduserguide_330237_001.pdf
+- [Intel Galileo User Guide](http://download.intel.com/support/galileo/sb/galileo_boarduserguide_330237_001.p)df
