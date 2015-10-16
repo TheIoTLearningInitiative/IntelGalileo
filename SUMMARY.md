@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Introducton](documentation/Introducton.md)
 * [Hardware](documentation/Hardware.md)
 * [Operating Systems](documentation/OperatingSystems.md)
@@ -8,4 +9,5 @@
 * [Libraires](documentation/Libraires.md)
 * [Debug](documentation/Debug.md)
 * [Customization](documentation/Customization.md)
+* Firmware
 
