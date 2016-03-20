@@ -20,6 +20,8 @@ Intel® Galileo
   - [Intel® Quark™ SoC X1000 Board Support Package (BSP): Build Guide](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-quark-x1000-bsp-guide.html)
   - [Intel® Quark™ Platforms—Best Known Configuration: Guide](http://www.intel.com/content/www/us/en/embedded/products/quark/quark-platforms-best-known-configuration-guide.html)
 - White Papers
+  - [Using Package Manager to Efficiently Develop Yocto* Project-based Systems: White Paper](http://www.intel.com/content/www/us/en/embedded/products/galileo/package-manager-white-paper.html)
+  - [Intel® Galileo Board TFT LCD Connectivity: White Paper](http://www.intel.com/content/www/us/en/embedded/products/galileo/enabling-tft-lcd-display-galileo-board-paper.html)
 - Reference Files
 - Tools & Utilities
 
