@@ -7,5 +7,5 @@
    * [Peripherals](documentation/Peripherals.md)
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
-* Sandbox
+* [Sandbox](documentation/Sandbox.md)
 
