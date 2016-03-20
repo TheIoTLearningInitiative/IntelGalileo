@@ -4,7 +4,7 @@
 * [Introduction](documentation/Introduction.md)
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
-   * Peripherals
+   * [Peripherals](documentation/Peripherals.md)
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
 
