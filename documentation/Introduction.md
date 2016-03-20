@@ -23,5 +23,8 @@ Intel® Galileo
   - [Using Package Manager to Efficiently Develop Yocto* Project-based Systems: White Paper](http://www.intel.com/content/www/us/en/embedded/products/galileo/package-manager-white-paper.html)
   - [Intel® Galileo Board TFT LCD Connectivity: White Paper](http://www.intel.com/content/www/us/en/embedded/products/galileo/enabling-tft-lcd-display-galileo-board-paper.html)
 - Reference Files
+  - [Intel® Galileo Gen 2 Development Board Schematic (with Intel® Quark™ SoC X1000)](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g2-schematic.html) 
+  - [Intel® Galileo Development Board: Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-datasheet.html)
+  - [Intel® Galileo Gen 1 Development Board Product Brief](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-product-brief.html)
 - Tools & Utilities
 
