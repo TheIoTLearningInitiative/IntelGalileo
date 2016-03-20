@@ -15,4 +15,4 @@ system designs capable of running applications written for IA-32 architecture.
 - Intel® Quark™ SoC X1000 Board Support Package (BSP) Build and Software User Guide
 - Intel® Quark™ SoC X1000 Software Release Notes
 - Intel® Quark™ SoC X1000 UEFI Firmware Writer’s Guide
-- http://www.mouser.mx/new/intel/intel-quark-x1000/
+- [Mouse Intel® Quark™ SoC X1000](http://www.mouser.mx/new/intel/intel-quark-x1000/)
