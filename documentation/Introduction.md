@@ -8,3 +8,4 @@ Intel® Galileo
 - [Intel® Galileo User Guide](http://download.intel.com/support/galileo/sb/galileo_boarduserguide_330237_001.p)
 - [Intel® Galileo Gen 1 Development Board Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-datasheet.html)
 - [Intel® Galileo Gen 2 Development Board Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g2-datasheet.html)
+- [](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-product-brief.html)
