@@ -28,4 +28,3 @@ Intel® Galileo
   - [Intel® Galileo Gen 1 Development Board Product Brief](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-product-brief.html)
 - Tools & Utilities
   - [Intel® Galileo Linux* Examples](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-linux-examples.html)
-
