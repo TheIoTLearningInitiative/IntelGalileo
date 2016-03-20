@@ -12,7 +12,8 @@ Intel® Galileo
   - [Intel® Galileo Gen 1 Development Board Product Brief](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-product-brief.html)
   - [Intel® Galileo Gen 1 Development Board Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-datasheet.html)
   - [Intel® Galileo Gen 2 Development Board Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g2-datasheet.html)
-- - Guides
+- Guides
+  - 
 - White Papers
 - Reference Files
 - Tools & Utilities
