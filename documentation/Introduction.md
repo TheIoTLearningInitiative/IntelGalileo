@@ -13,7 +13,12 @@ Intel® Galileo
   - [Intel® Galileo Gen 1 Development Board Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-datasheet.html)
   - [Intel® Galileo Gen 2 Development Board Datasheet](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g2-datasheet.html)
 - Guides
-  - 
+  - [Intel® Galileo User Guide](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-user-guide.html)
+  - [Intel® Galileo Software Release Notes](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-sw-release-notes.html)
+  - [Intel® Galileo IO Mapping](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-io-mapping.html)
+  - [Intel® Galileo Getting Started Guide](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-getting-started-guide.html)
+  - [Intel® Quark™ SoC X1000 Board Support Package (BSP): Build Guide](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-quark-x1000-bsp-guide.html)
+  - [Intel® Quark™ Platforms—Best Known Configuration: Guide](http://www.intel.com/content/www/us/en/embedded/products/quark/quark-platforms-best-known-configuration-guide.html)
 - White Papers
 - Reference Files
 - Tools & Utilities
