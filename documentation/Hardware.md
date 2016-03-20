@@ -1,7 +1,8 @@
 # Hardware
 
 ## Intel® Quark Core
-The Intel® Quark Core enables a range of low-cost, high-performance embedded
+
+> The Intel® Quark Core enables a range of low-cost, high-performance embedded
 system designs capable of running applications written for IA-32 architecture.
 
 - [Intel® Quark™ SoC X1000](http://www.intel.com/content/www/us/en/embedded/products/quark/overview.html)
