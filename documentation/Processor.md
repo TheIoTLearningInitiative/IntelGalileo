@@ -7,7 +7,7 @@ Processor
 > > The name Lakemont has been used in reference to the processor core in multiple Quark-series processors.
 
 > "Clanton"
-> > [Quark X1000](Intel® Quark™ SoC X1000 ) .. Quark X1021D
+> > [Quark X1000](Intel® Quark™ SoC X1000) .. [Quark X1021D](http://ark.intel.com/products/81329)
 
 ## Intel® Quark Core
 
