@@ -11,6 +11,10 @@ Processor
 
 > "Silver Butte"
 > > [Quark D1000](http://ark.intel.com/products/86826)
+
+> "Mint Valley"
+> > [Quark D2000](http://ark.intel.com/products/91947)
+
 ## Intel® Quark Core
 
 > The Intel® Quark Core enables a range of low-cost, high-performance embedded system designs capable of running applications written for IA-32 architecture.
