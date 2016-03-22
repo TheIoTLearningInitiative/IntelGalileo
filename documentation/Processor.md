@@ -7,7 +7,7 @@ Processor
 > > The name Lakemont has been used in reference to the processor core in multiple Quark-series processors.
 
 > "Clanton"
-> > (The L2 cache column shows the size of the L1 cache)
+> > Quark X1000 .. Quark X1021D
 
 ## Intel® Quark Core
 
