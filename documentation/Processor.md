@@ -1,6 +1,9 @@
 Processor
 ==
 
+
+https://en.wikipedia.org/wiki/Intel_Quark
+
 ## Intel® Quark Core
 
 > The Intel® Quark Core enables a range of low-cost, high-performance embedded
