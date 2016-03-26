@@ -1,6 +1,8 @@
 Peripherals
 ==
 
+## Power Management
+
 ## DDR3L SDRAM MT41K128M8
 
 > The 1.35V DDR3L SDRAM device is a low-voltage version of the 1.5V DDR3 SDRAM device. Refer to the
