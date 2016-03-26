@@ -1,13 +1,14 @@
 Peripherals
 ==
 
-Power Management Features
+## Power Management Features
+
 - ACPI 3.0 specification support
 - ACPI Processor C States (C0, C1, and C2)
 - ACPI Sleep State Support (S0, S3, S4, and S5)
 - PCI Express L0, L1, L2, and L3
 
-SD/SDIO/MMC
+## SD/SDIO/MMC
 
 > The Intel® Quark SoC X1000 provides an SDIO/SD/eMMC controller that supports a single port configurable as:
 
