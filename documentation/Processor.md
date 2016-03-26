@@ -25,7 +25,7 @@ Processor
 - [Intel® Quark™ SoC X1000 Ark](http://ark.intel.com/products/79084)
 - [Intel® Quark™ SoC X1000 Software Developer’s Manual for Linux*](http://www.intel.com/content/www/us/en/embedded/products/quark/quark-x1000-linux-sw-developers-manual.html)
 - [Intel® Quark SoC X1000 Core Hardware Reference Manual](https://communities.intel.com/servlet/JiveServlet/previewBody/21825-102-2-25117/Intel%20Quark%20Core%20HWRefMan_001.pdf)
-- Intel® Quark™ SoC X1000 Datasheet
+- [Intel® Quark™ SoC X1000 Datasheet](https://communities.intel.com/servlet/JiveServlet/previewBody/21828-102-2-25120/329676_QuarkDatasheet.pdf)
 - Intel® Quark™ SoC X1000 Secure Boot Programmer’s Reference Manual
 - Intel® Quark™ SoC X1000 Software Developer’s Manual for Linux*
 - Intel® Quark™ SoC X1000 Board Support Package (BSP) Build and Software User Guide
