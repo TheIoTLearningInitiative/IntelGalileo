@@ -3,7 +3,11 @@ Peripherals
 
 > Power Management
 > > 
+
 > Security
+
+> SD/SDIO/MMC
+> > The Intel® Quark SoC X1000 provides an SDIO/SD/eMMC controller that supports a single port configurable as: One SDIO 3.0 interface, One SD 3.0 interface, One eMMC 4.41 interface
 
 ## DDR3L SDRAM MT41K128M8
 
