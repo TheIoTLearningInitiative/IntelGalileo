@@ -1,7 +1,9 @@
 Peripherals
 ==
 
-## Power Management
+> Power Management
+> > 
+> Security
 
 ## DDR3L SDRAM MT41K128M8
 
