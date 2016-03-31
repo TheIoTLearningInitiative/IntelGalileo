@@ -112,7 +112,6 @@ Downloading http://iotdk.intel.com/repos/1.5/iotdk/x86/Packages.
 Updated list of available packages in /var/lib/opkg/iotdk-x86.
 Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
 Updated list of available packages in /var/lib/opkg/mraa-upm.
-root@galileo:~# 
 root@galileo:~# ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -131,7 +130,7 @@ root@galileo:~# ip a
        valid_lft 6995sec preferred_lft 3395sec
     inet6 fe80::ea4e:6ff:fe09:9fef/64 scope link
        valid_lft forever preferred_lft forever
-
+root@galileo:~# 
 ```
 
 ## Not Used
