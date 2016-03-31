@@ -101,6 +101,18 @@ wlp0s20f3u1 Link encap:Ethernet  HWaddr E8:4E:06:09:9F:EF
           TX packets:50 errors:0 dropped:0 overruns:0 carrier:0
           collisions:0 txqueuelen:1000
           RX bytes:13836 (13.5 KiB)  TX bytes:9501 (9.2 KiB)
+root@galileo:~# opkg update
+Downloading http://iotdk.intel.com/repos/1.5/iotdk/all/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-all.
+Downloading http://iotdk.intel.com/repos/1.5/iotdk/i586/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-i586.
+Downloading http://iotdk.intel.com/repos/1.5/iotdk/quark/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-quark.
+Downloading http://iotdk.intel.com/repos/1.5/iotdk/x86/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-x86.
+Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
+Updated list of available packages in /var/lib/opkg/mraa-upm.
+root@galileo:~# opkg install python-pip
 ```
 
 ## Not Used
