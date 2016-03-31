@@ -7,6 +7,7 @@
    * [Components](documentation/Components.md)
 * Userspace
    * Package Management Systems
+       * Open Package Management
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
 * Subsystems
