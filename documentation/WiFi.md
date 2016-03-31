@@ -9,6 +9,9 @@ network={
         #psk="6912345678"
         psk=c61b827aabeaa0703825b7b6f14c7d8201671b429b206617490eeb590efd8468
 }
-root@galileo:~#     
+root@galileo:~# cat /etc/network/interfaces
+cat: /etc/network/interfaces: No such file or directory
+root@galileo:~# vi /etc/network/interfaces
+
 ```
 
