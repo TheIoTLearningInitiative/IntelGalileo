@@ -5,7 +5,7 @@
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [Components](documentation/Components.md)
-* Userspace
+* User Space
    * Package Management Systems
        * Open Package Management
 * [Firmware](documentation/Firmware.md)
