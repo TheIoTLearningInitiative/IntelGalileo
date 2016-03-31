@@ -7,7 +7,7 @@
    * [Components](documentation/Components.md)
 * User Space
    * Package Management Systems
-       * [Open Package Management](OpenPackageManagement.md)
+       * [Open Package Management](documentation/OpenPackageManagement.md)
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
 * Subsystems
