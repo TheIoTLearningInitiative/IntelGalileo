@@ -35,6 +35,72 @@ root@galileo:~# dmesg
 [  398.980186] usb 1-1: reset high-speed USB device number 3 using ehci-pci
 [  399.187909] ieee80211 phy1: Selected rate control algorithm 'minstrel_ht'
 [  399.304607] systemd-udevd[279]: renamed network interface wlan0 to wlp0s20f3u1
+root@galileo:~# connmanctl
+connmanctl> enable wifi
+connmanctl> [  632.756490] IPv6: ADDRCONF(NETDEV_UP): wlp0s20f3u1: link is not ready
+Enabled wifi
+connmanctl> scan wifi
+Scan completed for wifi
+connmanctl> services
+    POSADA DE LA MONEDA  wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_manag                      ed_psk
+    Cineteca             wifi_e84e06099fef_43696e6574656361_managed_psk
+    Mision Zacatecas     wifi_e84e06099fef_4d6973696f6e205a6163617465636173_managed_non                      e
+    Sala_Prensa          wifi_e84e06099fef_53616c615f5072656e7361_managed_psk
+connmanctl> agent on
+Agent registered
+connmanctl> services
+    POSADA DE LA MONEDA  wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_managed_psk
+    Mision Zacatecas     wifi_e84e06099fef_4d6973696f6e205a6163617465636173_managed_none
+    Cineteca             wifi_e84e06099fef_43696e6574656361_managed_psk
+    Sala_Prensa          wifi_e84e06099fef_53616c615f5072656e7361_managed_psk
+aged_psktl> connect wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_man
+Agent RequestInput wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_managed_psk
+  Passphrase = [ Type=psk, Requirement=mandatory, Alternates=[ WPS ] ]
+  WPS = [ Type=wpspin, Requirement=alternate ]
+Passphrase? 6912345678
+connmanctl> [  739.164070] wlp0s20f3u1: authenticate with c0:56:27:89:7e:57
+[  739.176405] wlp0s20f3u1: capabilities/regulatory prevented using AP HT/VHT configuration, downgraded
+[  739.235203] wlp0s20f3u1: send auth to c0:56:27:89:7e:57 (try 1/3)
+[  739.248570] wlp0s20f3u1: authenticated
+[  739.270195] wlp0s20f3u1: associate with c0:56:27:89:7e:57 (try 1/3)
+[  739.283578] wlp0s20f3u1: RX AssocResp from c0:56:27:89:7e:57 (capab=0x431 status=0 aid=6)
+[  739.309207] wlp0s20f3u1: associated
+[  739.312999] IPv6: ADDRCONF(NETDEV_CHANGE): wlp0s20f3u1: link becomes ready
+Connected wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_managed_psk
+connmanctl> quit
+root@galileo:~# ifconfig
+enp0s20f6 Link encap:Ethernet  HWaddr 98:4F:EE:01:77:6D
+          inet6 addr: fe80::9a4f:eeff:fe01:776d/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:280 (280.0 B)
+          Interrupt:50 Base address:0xc000
+
+enp0s20f6:avahi Link encap:Ethernet  HWaddr 98:4F:EE:01:77:6D
+          inet addr:169.254.7.44  Bcast:169.254.255.255  Mask:255.255.0.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          Interrupt:50 Base address:0xc000
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:3760 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3760 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:271360 (265.0 KiB)  TX bytes:271360 (265.0 KiB)
+
+wlp0s20f3u1 Link encap:Ethernet  HWaddr E8:4E:06:09:9F:EF
+          inet addr:192.168.1.131  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::ea4e:6ff:fe09:9fef/64 Scope:Link
+          inet6 addr: fd24:7f3c:145:1a00:ea4e:6ff:fe09:9fef/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:69 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:13836 (13.5 KiB)  TX bytes:9501 (9.2 KiB)
 ```
 
 ```sh
