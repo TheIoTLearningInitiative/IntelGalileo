@@ -2,6 +2,10 @@ WiFi
 ==
 
 - [Internet Connectivity Galileo](https://software.intel.com/en-us/internet-connectivity-galileo)
+  - Ethernet Connectivity
+  - Integrated WiFi
+    - Connecting to a WiFi Network
+    - Providing an Access Point  
 
 ```sh
 root@galileo:~# ifconfig
