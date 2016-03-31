@@ -8,5 +8,6 @@
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
 * Subsystems
+   * Networking
 * [Sandbox](documentation/Sandbox.md)
 
