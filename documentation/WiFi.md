@@ -28,6 +28,14 @@ lo        Link encap:Local Loopback
 ```
 
 ```sh
+root@galileo:~# dmesg
+[  398.670181] usb 1-1: new high-speed USB device number 3 using ehci-pci
+[  398.980186] usb 1-1: reset high-speed USB device number 3 using ehci-pci
+[  399.187909] ieee80211 phy1: Selected rate control algorithm 'minstrel_ht'
+[  399.304607] systemd-udevd[279]: renamed network interface wlan0 to wlp0s20f3u1
+```
+
+```sh
 root@galileo:~# wpa_passphrase "POSADA DE LA MONEDA" 6912345678 > /etc/wpa_supplicant.conf
 root@galileo:~# cat /etc/wpa_supplicant.conf
 network={
