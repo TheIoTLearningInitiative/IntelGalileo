@@ -1,6 +1,8 @@
 Open Package Management
 ==
 
+- [](http://alextgalileo.altervista.org/package-repo-configuration-instructions.html)
+
 ```sh
 root@galileo:~# cat /etc/opkg/base-feeds.conf
 root@galileo:~# vi /etc/opkg/base-feeds.conf
