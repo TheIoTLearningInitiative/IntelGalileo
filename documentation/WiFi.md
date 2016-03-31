@@ -103,6 +103,8 @@ wlp0s20f3u1 Link encap:Ethernet  HWaddr E8:4E:06:09:9F:EF
           RX bytes:13836 (13.5 KiB)  TX bytes:9501 (9.2 KiB)
 ```
 
+## Not Used
+
 ```sh
 root@galileo:~# wpa_passphrase "POSADA DE LA MONEDA" 6912345678 > /etc/wpa_supplicant.conf
 root@galileo:~# cat /etc/wpa_supplicant.conf
