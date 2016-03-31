@@ -130,7 +130,18 @@ root@galileo:~# ip a
        valid_lft 6995sec preferred_lft 3395sec
     inet6 fe80::ea4e:6ff:fe09:9fef/64 scope link
        valid_lft forever preferred_lft forever
-root@galileo:~# 
+root@galileo:~# cat /var/lib/connman/wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_managed_psk/settings
+Name=POSADA DE LA MONEDA
+SSID=504f53414441204445204c41204d4f4e454441
+Frequency=2462
+Favorite=true
+AutoConnect=true
+Modified=2015-05-29T21:27:03.729537Z
+Passphrase=6912345678
+IPv4.method=dhcp
+IPv4.DHCP.LastAddress=192.168.1.131
+IPv6.method=auto
+IPv6.privacy=disabled
 ```
 
 ## Not Used
