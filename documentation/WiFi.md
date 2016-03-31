@@ -12,5 +12,8 @@ network={
 root@galileo:~# cat /etc/network/interfaces
 cat: /etc/network/interfaces: No such file or directory
 root@galileo:~# vi /etc/network/interfaces
+auto wlan0
+root@galileo:~# cat /etc/network/interfaces
+auto wlan0
 ```
 
