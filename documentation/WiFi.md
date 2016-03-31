@@ -1,6 +1,8 @@
 WiFi
 ==
 
+- [Internet Connectivity Galileo](https://software.intel.com/en-us/internet-connectivity-galileo)
+
 ```sh
 root@galileo:~# ifconfig
 enp0s20f6 Link encap:Ethernet  HWaddr 98:4F:EE:01:77:6D
