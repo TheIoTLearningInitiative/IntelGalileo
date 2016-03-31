@@ -33,3 +33,4 @@ Intel® Galileo
 Community
 
 - [Malinov Building Linux Image](http://www.malinov.com/system/app/pages/search?scope=search-site&q=galileo)
+- [Galileo University Curricula](http://www.intel.com/content/www/us/en/education/university/galileo-university-curricula.html)
