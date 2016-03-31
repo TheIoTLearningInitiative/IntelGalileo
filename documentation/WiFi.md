@@ -112,7 +112,7 @@ Downloading http://iotdk.intel.com/repos/1.5/iotdk/x86/Packages.
 Updated list of available packages in /var/lib/opkg/iotdk-x86.
 Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
 Updated list of available packages in /var/lib/opkg/mraa-upm.
-root@galileo:~# opkg install python-pip
+root@galileo:~# 
 ```
 
 ## Not Used
