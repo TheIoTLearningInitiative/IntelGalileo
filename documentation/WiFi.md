@@ -113,6 +113,25 @@ Updated list of available packages in /var/lib/opkg/iotdk-x86.
 Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
 Updated list of available packages in /var/lib/opkg/mraa-upm.
 root@galileo:~# 
+root@galileo:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: enp0s20f6: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether 98:4f:ee:01:77:6d brd ff:ff:ff:ff:ff:ff
+    inet 169.254.7.44/16 brd 169.254.255.255 scope link enp0s20f6:avahi
+    inet6 fe80::9a4f:eeff:fe01:776d/64 scope link
+       valid_lft forever preferred_lft forever
+4: wlp0s20f3u1: <BROADCAST,MULTICAST,UP,LOWER_UP8000> mtu 1500 qdisc mq qlen 1000
+    link/ether e8:4e:06:09:9f:ef brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.131/24 brd 192.168.1.255 scope global wlp0s20f3u1
+    inet6 fd24:7f3c:145:1a00:ea4e:6ff:fe09:9fef/64 scope global dynamic
+       valid_lft 6995sec preferred_lft 3395sec
+    inet6 fe80::ea4e:6ff:fe09:9fef/64 scope link
+       valid_lft forever preferred_lft forever
+
 ```
 
 ## Not Used
