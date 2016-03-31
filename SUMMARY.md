@@ -7,6 +7,6 @@
    * [Components](documentation/Components.md)
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
-* [Sandbox](documentation/Sandbox.md)
 * Subsystems
+* [Sandbox](documentation/Sandbox.md)
 
