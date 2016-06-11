@@ -24,7 +24,15 @@ xe1gyq@jessie:~/Galileo/iotdk$
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/iotdk$ git clone git://git.yoctoproject.org/meta-intel-iot-middleware
+Cloning into 'meta-intel-iot-middleware'...
+remote: Counting objects: 1113, done.
+remote: Compressing objects: 100% (611/611), done.
+remote: Total 1113 (delta 560), reused 957 (delta 406)
+Receiving objects: 100% (1113/1113), 5.62 MiB | 745.00 KiB/s, done.
+Resolving deltas: 100% (560/560), done.
+Checking connectivity... done.
+xe1gyq@jessie:~/Galileo/iotdk$ 
 ```
 
 ```sh
