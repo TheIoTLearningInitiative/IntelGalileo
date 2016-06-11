@@ -134,7 +134,7 @@ BBLAYERS ?= " \
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/iotdk/build$ nano conf/auto.conf
 ```
 
 ```sh
