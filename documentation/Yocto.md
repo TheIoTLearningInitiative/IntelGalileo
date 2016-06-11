@@ -105,11 +105,32 @@ xe1gyq@jessie:~/Galileo/iotdk/build$
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/iotdk/build$ ls
+conf
+xe1gyq@jessie:~/Galileo/iotdk/build$ 
 ```
 
 ```sh
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
 
+LCONF_VERSION = "6"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/xe1gyq/Galileo/iotdk/meta \
+  /home/xe1gyq/Galileo/iotdk/meta-poky \
+  /home/xe1gyq/Galileo/iotdk/meta-yocto-bsp \
+  /home/xe1gyq/Galileo/iotdk/meta-oe/meta-oe \
+  /home/xe1gyq/Galileo/iotdk/meta-oe/meta-filesystems \
+  /home/xe1gyq/Galileo/iotdk/meta-intel-quark \
+  /home/xe1gyq/Galileo/iotdk/meta-intel-galileo \
+  /home/xe1gyq/Galileo/iotdk/meta-intel-iot-middleware \
+  /home/xe1gyq/Galileo/iotdk/meta-intel-iot-devkit \
+  "
 ```
 
 ```sh
