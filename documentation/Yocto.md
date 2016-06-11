@@ -107,7 +107,7 @@ xe1gyq@jessie:~/Galileo/iotdk/build$
 ```sh
 xe1gyq@jessie:~/Galileo/iotdk/build$ ls
 conf
-xe1gyq@jessie:~/Galileo/iotdk/build$ 
+xe1gyq@jessie:~/Galileo/iotdk/build$ nano conf/bblayers.conf 
 ```
 
 ```sh
