@@ -47,7 +47,15 @@ Checking connectivity... done.
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/iotdk$ git clone git://git.yoctoproject.org/meta-intel-iot-devkit
+Cloning into 'meta-intel-iot-devkit'...
+remote: Counting objects: 224894, done.
+remote: Compressing objects: 100% (57451/57451), done.
+remote: Total 224894 (delta 162433), reused 224748 (delta 162287)
+Receiving objects: 100% (224894/224894), 108.63 MiB | 984.00 KiB/s, done.
+Resolving deltas: 100% (162433/162433), done.
+Checking connectivity... done.
+xe1gyq@jessie:~/Galileo/iotdk$ 
 ```
 
 ```sh
