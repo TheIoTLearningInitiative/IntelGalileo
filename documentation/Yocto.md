@@ -59,7 +59,15 @@ xe1gyq@jessie:~/Galileo/iotdk$
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/iotdk$ git clone http://github.com/openembedded/meta-openembedded.git meta-oe
+Cloning into 'meta-oe'...
+remote: Counting objects: 61741, done.
+remote: Compressing objects: 100% (300/300), done.
+remote: Total 61741 (delta 129), reused 18 (delta 18), pack-reused 61409
+Receiving objects: 100% (61741/61741), 26.24 MiB | 939.00 KiB/s, done.
+Resolving deltas: 100% (35595/35595), done.
+Checking connectivity... done.
+xe1gyq@jessie:~/Galileo/iotdk$ 
 ```
 
 ```sh
