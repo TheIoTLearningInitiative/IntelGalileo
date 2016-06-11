@@ -36,7 +36,14 @@ xe1gyq@jessie:~/Galileo/iotdk$
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/iotdk$ git clone git://git.yoctoproject.org/meta-intel-galileo
+Cloning into 'meta-intel-galileo'...
+remote: Counting objects: 160, done.
+remote: Compressing objects: 100% (98/98), done.
+remote: Total 160 (delta 50), reused 151 (delta 41)
+Receiving objects: 100% (160/160), 180.42 KiB | 233.00 KiB/s, done.
+Resolving deltas: 100% (50/50), done.
+Checking connectivity... done.
 ```
 
 ```sh
