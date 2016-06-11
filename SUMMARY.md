@@ -5,6 +5,7 @@
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [Components](documentation/Components.md)
+* Build Systems
 * User Space
    * Package Management Systems
        * [Open Package Management](documentation/OpenPackageManagement.md)
@@ -14,5 +15,4 @@
 * Subsystems
    * [WiFi](documentation/WiFi.md)
 * [Sandbox](documentation/Sandbox.md)
-* Build Systems
 
