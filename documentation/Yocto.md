@@ -144,7 +144,7 @@ README_-_DO_NOT_DELETE_FILES_IN_THIS_DIRECTORY.txt
 xe1gyq@jessie:~/Galileo/poky/build$ 
 ```
 
-## Intel Galileo Image Creation
+## Image Creation
 
 - [[meta-intel] [PATCH] mkgalileodisk.wks: WiC image for Galileo Gen 1/2](https://lists.yoctoproject.org/pipermail/meta-intel/2015-November/003642.html)
 
