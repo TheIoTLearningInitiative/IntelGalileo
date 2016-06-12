@@ -265,6 +265,8 @@ xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minim
 
 ## Intel Galileo Yocto Kernel RT
 
+[Galileo RT_Preempt](https://communities.intel.com/thread/48816)
+
 ```sh
 xe1gyq@jessie:~/Galileo/poky$ git clone https://github.com/hambedded-linux/meta-hamradio.git
 Cloning into 'meta-hamradio'...
