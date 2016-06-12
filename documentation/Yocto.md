@@ -115,6 +115,8 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 
 ## Not Working
 
+- [Creating a Yocto Image for Inteñ® Galileo Board Using Split Layers](https://software.intel.com/en-us/blogs/2015/03/04/creating-a-yocto-image-for-the-intel-galileo-board-using-split-layers)
+
 ```sh
 xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky iotdk
 Cloning into 'iotdk'...
