@@ -1,5 +1,7 @@
 # Yocto
 
+> Layer containing Intel hardware support metadata [meta-intel](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel)
+
 ```sh
 xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky
 Cloning into 'poky'...
