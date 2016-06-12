@@ -10,6 +10,12 @@ Receiving objects: 100% (322331/322331), 123.57 MiB | 611.00 KiB/s, done.
 Resolving deltas: 100% (238233/238233), done.
 Checking connectivity... done.
 xe1gyq@jessie:~/Galileo$ cd poky
+xe1gyq@jessie:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
+Branch krogoth set up to track remote branch krogoth from origin.
+Switched to a new branch 'krogoth'
+```
+
+```sh
 xe1gyq@jessie:~/Galileo/poky$ git clone git://git.yoctoproject.org/meta-intel
 Cloning into 'meta-intel'...
 remote: Counting objects: 12302, done.
@@ -18,28 +24,12 @@ remote: Total 12302 (delta 7080), reused 12275 (delta 7053)
 Receiving objects: 100% (12302/12302), 3.96 MiB | 608.00 KiB/s, done.
 Resolving deltas: 100% (7080/7080), done.
 Checking connectivity... done.
-xe1gyq@jessie:~/Galileo/poky$ git checkout krogoth
-Branch krogoth set up to track remote branch krogoth from origin.
-Switched to a new branch 'krogoth'
 xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout krogoth
+xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
-Switched to a new branch 'krogoth'
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
-```
+Switched to a new branch 'krogoth'```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
-Branch krogoth set up to track remote branch krogoth from origin.
-Switched to a new branch 'krogoth'
-xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
-fatal: A branch named 'krogoth' already exists.
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ git branch -D krogoth
-Deleted branch krogoth (was 58b8e0f).
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
-Branch krogoth set up to track remote branch krogoth from origin.
-Switched to a new branch 'krogoth'
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
 ```
 
