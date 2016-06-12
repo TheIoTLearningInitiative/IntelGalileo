@@ -1,5 +1,21 @@
 # Yocto
 
+
+```sh
+
+```
+
+```sh
+
+```
+
+```sh
+
+```
+
+
+## Non Working
+
 ```sh
 xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky iotdk
 Cloning into 'iotdk'...
@@ -136,16 +152,3 @@ BBLAYERS ?= " \
 ```sh
 xe1gyq@jessie:~/Galileo/iotdk/build$ nano conf/local.conf
 ```
-
-```sh
-
-```
-
-```sh
-
-```
-
-```sh
-
-```
-
