@@ -157,6 +157,21 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ../meta-intel-iot-devkit/scripts/wic_monkey create -e core-image-minimal ../meta-intel-iot-devkit/scripts/lib/image/canned-wks/iot-devkit.wks
 ```
 
+
+```
+xe1gyq@jessie:~/Galileo/poky/build$ wic list images
+  mkgalileodisk                 		Create an Galileo Gen 1/2 disk image
+  directdisk-bootloader-config  		Create a 'pcbios' direct disk image with custom bootloader config
+  sdimage-bootpart              		Create SD card image with a boot partition
+  mkgummidisk                   		Create an EFI disk image
+  qemux86-directdisk            		Create a qemu machine 'pcbios' direct disk image
+  directdisk-multi-rootfs       		Create multi rootfs image using rootfs plugin
+  directdisk                    		Create a 'pcbios' direct disk image
+  mkefidisk                     		Create an EFI disk image
+  mkhybridiso                   		Create a hybrid ISO image
+  directdisk-gpt                		Create a 'pcbios' direct disk image
+```
+
 ## Not Working
 
 - [Creating a Yocto Image for Inteñ® Galileo Board Using Split Layers](https://software.intel.com/en-us/blogs/2015/03/04/creating-a-yocto-image-for-the-intel-galileo-board-using-split-layers)
