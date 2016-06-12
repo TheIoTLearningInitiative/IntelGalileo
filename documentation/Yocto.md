@@ -28,7 +28,7 @@ Checking connectivity... done.
 xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
-Switched to a new branch 'krogoth'```
+Switched to a new branch 'krogoth'
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
 ```
 
