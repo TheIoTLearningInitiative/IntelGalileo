@@ -107,7 +107,31 @@ NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun an
 ```
 
 ```sh
+xe1gyq@jessie:~/Galileo/poky/build$ ls
+bitbake.lock  cache  conf  downloads  sstate-cache  tmp
 xe1gyq@jessie:~/Galileo/poky/build$ ls tmp/deploy/images/intel-quark/
+bzImage
+bzImage--4.4.3+git0+9ab4787fe2_076cc85486-r0-intel-quark-20160612054437.bin
+bzImage-intel-quark.bin
+core-image-minimal-initramfs-intel-quark-20160612054437.rootfs.cpio.gz
+core-image-minimal-initramfs-intel-quark-20160612054437.rootfs.manifest
+core-image-minimal-initramfs-intel-quark.cpio.gz
+core-image-minimal-initramfs-intel-quark.manifest
+core-image-minimal-intel-quark-20160612054437.hddimg
+core-image-minimal-intel-quark-20160612054437.iso
+core-image-minimal-intel-quark-20160612054437.rootfs.ext4
+core-image-minimal-intel-quark-20160612054437.rootfs.manifest
+core-image-minimal-intel-quark.ext4
+core-image-minimal-intel-quark.hddimg
+core-image-minimal-intel-quark.iso
+core-image-minimal-intel-quark.manifest
+gummibootia32.efi
+microcode_20151106.cpio
+microcode.cpio
+modules--4.4.3+git0+9ab4787fe2_076cc85486-r0-intel-quark-20160612054437.tgz
+modules-intel-quark.tgz
+README_-_DO_NOT_DELETE_FILES_IN_THIS_DIRECTORY.txt
+xe1gyq@jessie:~/Galileo/poky/build$ 
 ```
 
 ```sh
