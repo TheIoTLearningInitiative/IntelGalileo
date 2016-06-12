@@ -2,7 +2,7 @@
 
 > Layer containing Intel hardware support metadata [meta-intel](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel)
 
-## Source Code Cloning
+## Intel Galileo Yocto Source Code Cloning
 
 ```sh
 xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky
