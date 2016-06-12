@@ -2,7 +2,7 @@
 
 > Layer containing Intel hardware support metadata [meta-intel](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel)
 
-- [](http://www.digit.in/apps/creating-a-yocto-image-for-the-intel-galileo-board-using-split-layers-25901.html)
+- [Creating a Yocto Image](http://www.digit.in/apps/creating-a-yocto-image-for-the-intel-galileo-board-using-split-layers-25901.html)
 
 ## Intel Galileo Yocto Source Code Cloning
 
