@@ -213,6 +213,27 @@ xe1gyq@jessie:~/Galileo/poky/build$
 ```
 
 ```sh
+xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
+Checking basic build environment...
+Done.
+
+Creating image(s)...
+
+Info: The new image(s) can be found here:
+  /var/tmp/wic/build/mkgalileodisk-201606120753-mmcblk0.direct
+
+The following build artifacts were used to create the image(s):
+  ROOTFS_DIR:                   /home/xe1gyq/Galileo/poky/build/tmp/work/intel_quark-poky-linux/core-image-minimal/1.0-r0/rootfs
+  BOOTIMG_DIR:                  /home/xe1gyq/Galileo/poky/build/tmp/work/intel_quark-poky-linux/core-image-minimal/1.0-r0/core-image-minimal-1.0/hddimg
+  KERNEL_DIR:                   /home/xe1gyq/Galileo/poky/build/tmp/deploy/images/intel-quark
+  NATIVE_SYSROOT:               /home/xe1gyq/Galileo/poky/build/tmp/sysroots/i686-linux
+
+
+The image(s) were created using OE kickstart file:
+  /home/xe1gyq/Galileo/poky/meta-intel/scripts/lib/wic/canned-wks/mkgalileodisk.wks
+```
+
+```sh
 dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ../meta-intel-iot-devkit/scripts/wic_monkey create -e core-image-minimal ../meta-intel-iot-devkit/scripts/lib/image/canned-wks/iot-devkit.wks
 ```
