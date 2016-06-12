@@ -62,6 +62,9 @@ Common targets are:
     meta-ide-support
 
 You can also run generated qemu images with a command like 'runqemu qemux86'
+```
+
+```sh
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers add-layer "$HOME/Galileo/poky/meta-intel"
 xe1gyq@jessie:~/Galileo/poky/build$ echo 'MACHINE = "intel-quark"' >> conf/local.conf
 xe1gyq@jessie:~/Galileo/poky/build$ 
