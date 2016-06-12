@@ -9,6 +9,7 @@ Intel® Galileo
 - [Intel® Galileo User Guide](http://download.intel.com/support/galileo/sb/galileo_boarduserguide_330237_001.pdf)
 - [Intel® Galileo IoT Dev Kit](http://iotdk.intel.com/)
 - [When to use Intel® Galileo](https://software.intel.com/en-us/articles/when-to-use-the-intel-galileo-board)
+- [Getting Started with the Intel® Galileo Board on Linux](https://software.intel.com/en-us/get-started-galileo-linux)
 
 - Datasheets
   - [Intel® Galileo Gen 1 Development Board Product Brief](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-g1-product-brief.html)

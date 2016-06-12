@@ -263,6 +263,8 @@ xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
 xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
 ```
 
+## Intel Galileo Yocto Kernel RT
+
 ```sh
 xe1gyq@jessie:~/Galileo/poky$ git clone https://github.com/hambedded-linux/meta-hamradio.git
 Cloning into 'meta-hamradio'...
