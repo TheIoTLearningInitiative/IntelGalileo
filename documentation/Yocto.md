@@ -1,6 +1,5 @@
 # Yocto
 
-
 ```sh
 
 ```
@@ -12,7 +11,6 @@
 ```sh
 
 ```
-
 
 ## Non Working
 
