@@ -135,8 +135,19 @@ xe1gyq@jessie:~/Galileo/poky/build$
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ ls ../meta-intel/scripts/lib/wic/canned-wks/
-mkgalileodisk.wks
+xe1gyq@jessie:~/Galileo/poky/build$ cat ../meta-intel/scripts/lib/wic/canned-wks/mkgalileodisk.wks 
+```
+
+```sh
+# short-description: Create an Galileo Gen 1/2 disk image
+# long-description: Creates a partitioned EFI disk image for Intel Galileo Gen 1/2,
+# that the user can directly dd to boot media.
+
+part /boot --source bootimg-efi --sourceparams="loader=gummiboot" --ondisk mmcblk0 --label msdos --active --align 1024
+
+part / --source rootfs --ondisk mmcblk0 --fstype=ext3 --label platform --align 1024
+
+bootloader  --timeout=0  --append="console=ttyS1,115200n8 earlycon=uart8250,mmio32,0x9000b000,115200n8 reboot=efi,warm apic=debug rw LABEL=boot debugshell=5"
 ```
 
 ```sh
