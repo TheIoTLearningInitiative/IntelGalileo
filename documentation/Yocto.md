@@ -247,3 +247,8 @@ The image(s) were created using OE kickstart file:
 dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ../meta-intel-iot-devkit/scripts/wic_monkey create -e core-image-minimal ../meta-intel-iot-devkit/scripts/lib/image/canned-wks/iot-devkit.wks
 ```
+
+```sh
+
+
+```
