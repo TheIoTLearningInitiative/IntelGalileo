@@ -99,6 +99,11 @@ Currently 2 running tasks (65 of 2378):
 0: libtool-native-2.4.6-r0 do_configure (pid 27070)
 1: gcc-source-5.3.0-5.3.0-r0 do_fetch (pid 27129)
 ...
+NOTE: Fetching uninative binary shim from http://downloads.yoctoproject.org/releases/uninative/0.95/i686-nativesdk-libc.tar.bz2;sha256sum=5f27d7e0f4dd2ed80a7ff6a0d88af107b08e00765b31ed3aa180cc5ce15b0811
+NOTE: Preparing RunQueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun and all succeeded.
 ```
 
 ```sh
