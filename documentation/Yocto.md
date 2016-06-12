@@ -250,7 +250,7 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 
 ## Additional Package
 
-- [Yocto](http://android.serverbox.ch/?p=1273)
+- [Build and Deploy Yocto](http://android.serverbox.ch/?p=1273)
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers show-recipes
