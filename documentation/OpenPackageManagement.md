@@ -6,9 +6,15 @@ Open Package Management
 ```sh
 root@galileo:~# cat /etc/opkg/base-feeds.conf
 root@galileo:~# vi /etc/opkg/base-feeds.conf
+```
+
+```sh
 src/gz all http://repo.opkg.net/galileo/repo/all
 src/gz clanton http://repo.opkg.net/galileo/repo/clanton
 src/gz i586 http://repo.opkg.net/galileo/repo/i586
+```
+
+```sh
 root@galileo:~# opkg update
 Downloading http://repo.opkg.net/galileo/repo/all/Packages.gz.
 Inflating http://repo.opkg.net/galileo/repo/all/Packages.gz.
