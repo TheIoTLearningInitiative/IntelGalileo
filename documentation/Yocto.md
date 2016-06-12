@@ -81,6 +81,18 @@ xe1gyq@jessie:~/Galileo/poky/build$
 
 ```
 
+```sh
+
+```
+
+```sh
+
+```
+
+```sh
+
+```
+
 ## Non Working
 
 ```sh
