@@ -169,7 +169,15 @@ xe1gyq@jessie:~/Galileo/poky/build$ wic list images
 ```
 
 ```sh
+xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
+Checking basic build environment...
+Done.
 
+Creating image(s)...
+
+Error: A native program parted required to build the image was not found (see details above).
+
+Please bake it with 'bitbake parted-native' and try again.
 ```
 
 ```sh
