@@ -259,7 +259,7 @@ xe1gyq@jessie:~/Galileo/poky/build$ nano conf/local.conf
 CORE_IMAGE_EXTRA_INSTALL += "dropbear"
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile busybox
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
-xe1gyq@jessie:~/Galileo/poky/build$ 
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
 ```
 
 ```sh
