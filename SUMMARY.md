@@ -17,6 +17,6 @@
 * Subsystems
    * [WiFi](documentation/WiFi.md)
    * [Serial](documentation/Serial.md)
-* [Sandbox](documentation/Sandbox.md)
 * [Arduino](documentation/Arduino.md)
+* [Sandbox](documentation/Sandbox.md)
 
