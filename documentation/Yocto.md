@@ -260,7 +260,20 @@ xe1gyq@jessie:~/Galileo/poky/build$ nano conf/bblayers.conf
 ```
 
 ```sh
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
 
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/xe1gyq/Galileo/poky/meta \
+  /home/xe1gyq/Galileo/poky/meta-poky \
+  /home/xe1gyq/Galileo/poky/meta-yocto-bsp \
+  /home/xe1gyq/Galileo/poky/meta-intel \
+  /home/xe1gyq/Galileo/poky/meta-hamradio \
+  "
 ```
 
 ```sh
