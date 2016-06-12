@@ -102,7 +102,7 @@ Currently 2 running tasks (65 of 2378):
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/poky/build$ ls tmp/deploy/images/intel-quark/
 ```
 
 ```sh
