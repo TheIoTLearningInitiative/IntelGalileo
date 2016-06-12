@@ -183,6 +183,36 @@ Please bake it with 'bitbake parted-native' and try again.
 ```
 
 ```sh
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
+Loading cache: 100% |############################################################| ETA:  00:00:00
+Loaded 1317 entries from dependency cache.
+Parsing recipes: 100% |##########################################################| Time: 00:00:00
+Parsing of 886 .bb files complete (885 cached, 1 parsed). 1317 targets, 48 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION        = "1.30.0"
+BUILD_SYS         = "i686-linux"
+NATIVELSBSTRING   = "universal"
+TARGET_SYS        = "i586-poky-linux"
+MACHINE           = "intel-quark"
+DISTRO            = "poky"
+DISTRO_VERSION    = "2.1"
+TUNE_FEATURES     = "m32 i586-nlp"
+TARGET_FPU        = ""
+meta              
+meta-poky         
+meta-yocto-bsp    = "krogoth:8f51f6153a09f8048fb4c4ce9cf4a19655240de4"
+meta-intel        = "krogoth:58b8e0f2e6c4f6566983baf4bc980a86592398ad"
+
+NOTE: Preparing RunQueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 114 tasks of which 105 didn't need to be rerun and all succeeded.
+xe1gyq@jessie:~/Galileo/poky/build$ 
+```
+
+```sh
 dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ../meta-intel-iot-devkit/scripts/wic_monkey create -e core-image-minimal ../meta-intel-iot-devkit/scripts/lib/image/canned-wks/iot-devkit.wks
 ```
