@@ -71,7 +71,34 @@ xe1gyq@jessie:~/Galileo/poky/build$
 ```
 
 ```sh
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
+Parsing recipes: 100% |#########################################| Time: 00:01:20
+Parsing of 886 .bb files complete (0 cached, 886 parsed). 1317 targets, 48 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
 
+Build Configuration:
+BB_VERSION        = "1.30.0"
+BUILD_SYS         = "i686-linux"
+NATIVELSBSTRING   = "Debian-8.3"
+TARGET_SYS        = "i586-poky-linux"
+MACHINE           = "intel-quark"
+DISTRO            = "poky"
+DISTRO_VERSION    = "2.1"
+TUNE_FEATURES     = "m32 i586-nlp"
+TARGET_FPU        = ""
+meta              
+meta-poky         
+meta-yocto-bsp    = "krogoth:8f51f6153a09f8048fb4c4ce9cf4a19655240de4"
+meta-intel        = "krogoth:58b8e0f2e6c4f6566983baf4bc980a86592398ad"
+
+NOTE: Fetching uninative binary shim from http://downloads.yoctoproject.org/releases/uninative/0.95/i686-nativesdk-libc.tar.bz2;sha256sum=5f27d7e0f4dd2ed80a7ff6a0d88af107b08e00765b31ed3aa180cc5ce15b0811
+NOTE: Preparing RunQueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+Currently 2 running tasks (65 of 2378):
+0: libtool-native-2.4.6-r0 do_configure (pid 27070)
+1: gcc-source-5.3.0-5.3.0-r0 do_fetch (pid 27129)
+...
 ```
 
 ```sh
