@@ -260,6 +260,7 @@ CORE_IMAGE_EXTRA_INSTALL += "dropbear"
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile busybox
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
+xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
 ```
 
 ```sh
