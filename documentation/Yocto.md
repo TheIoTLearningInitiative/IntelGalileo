@@ -36,7 +36,7 @@ Switched to a new branch 'krogoth'
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
 ```
 
-## Source Code Configuration
+## Intel Galileo Yocto Source Code Configuration
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky$ source oe-init-build-env
@@ -76,7 +76,7 @@ xe1gyq@jessie:~/Galileo/poky/build$ echo 'MACHINE = "intel-quark"' >> conf/local
 xe1gyq@jessie:~/Galileo/poky/build$ 
 ```
 
-## Source Code Compilation Process
+## Intel Galileo Yocto Source Code Compilation Process
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
@@ -114,7 +114,7 @@ NOTE: Executing RunQueue Tasks
 NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun and all succeeded.
 ```
 
-## Compilation Outputs
+## Intel Galileo Yocto Compilation Outputs
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky/build$ ls
@@ -144,7 +144,7 @@ README_-_DO_NOT_DELETE_FILES_IN_THIS_DIRECTORY.txt
 xe1gyq@jessie:~/Galileo/poky/build$ 
 ```
 
-## Image Creation
+## Intel Galileo Yocto Image Creation
 
 - [[meta-intel] [PATCH] mkgalileodisk.wks: WiC image for Galileo Gen 1/2](https://lists.yoctoproject.org/pipermail/meta-intel/2015-November/003642.html)
 
@@ -248,7 +248,7 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ../meta-intel-iot-devkit/scripts/wic_monkey create -e core-image-minimal ../meta-intel-iot-devkit/scripts/lib/image/canned-wks/iot-devkit.wks
 ```
 
-## Additional Package
+## Intel Galileo Yocto Additional Package
 
 - [Build and Deploy Yocto](http://android.serverbox.ch/?p=1273)
 
