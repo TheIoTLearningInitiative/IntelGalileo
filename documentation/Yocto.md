@@ -106,7 +106,7 @@ xe1gyq@jessie:~/Galileo/poky/build$ ls tmp/deploy/images/intel-quark/
 ```
 
 ```sh
-
+dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ```
 
 ```sh
