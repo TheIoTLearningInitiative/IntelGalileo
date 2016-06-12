@@ -15,5 +15,6 @@
 * [Customization](documentation/Customization.md)
 * Subsystems
    * [WiFi](documentation/WiFi.md)
+   * Serial
 * [Sandbox](documentation/Sandbox.md)
 
