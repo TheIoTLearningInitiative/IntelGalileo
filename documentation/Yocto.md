@@ -251,6 +251,11 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ## Additional Package
 
 ```sh
+bitbake-layers show-recipes
+bitbake -c menuconfig busybox
+```
+
+```sh
 xe1gyq@jessie:~/Galileo/poky$ git clone https://github.com/hambedded-linux/meta-hamradio.git
 Cloning into 'meta-hamradio'...
 remote: Counting objects: 69, done.
