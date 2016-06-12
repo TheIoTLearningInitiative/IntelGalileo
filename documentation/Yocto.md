@@ -29,7 +29,18 @@ xe1gyq@jessie:~/Galileo/poky/meta-intel$
 ```
 
 ```sh
-
+xe1gyq@jessie:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
+Branch krogoth set up to track remote branch krogoth from origin.
+Switched to a new branch 'krogoth'
+xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
+xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
+fatal: A branch named 'krogoth' already exists.
+xe1gyq@jessie:~/Galileo/poky/meta-intel$ git branch -D krogoth
+Deleted branch krogoth (was 58b8e0f).
+xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
+Branch krogoth set up to track remote branch krogoth from origin.
+Switched to a new branch 'krogoth'
+xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
 ```
 
 ```sh
