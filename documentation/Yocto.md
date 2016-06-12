@@ -113,7 +113,7 @@ Currently 2 running tasks (65 of 2378):
 
 ```
 
-## Non Working
+## Not Working
 
 ```sh
 xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky iotdk
