@@ -257,6 +257,9 @@ xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers show-recipes
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake -c menuconfig busybox
 xe1gyq@jessie:~/Galileo/poky/build$ nano conf/local.conf
 CORE_IMAGE_EXTRA_INSTALL += "dropbear"
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile busybox
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
+xe1gyq@jessie:~/Galileo/poky/build$ 
 ```
 
 ```sh
