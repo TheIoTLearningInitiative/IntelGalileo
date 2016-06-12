@@ -2,6 +2,8 @@
 
 > Layer containing Intel hardware support metadata [meta-intel](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel)
 
+## Source Code Cloning
+
 ```sh
 xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky
 Cloning into 'poky'...
@@ -33,6 +35,8 @@ Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
 ```
+
+## Source Code Configuration
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky$ source oe-init-build-env
@@ -72,6 +76,8 @@ xe1gyq@jessie:~/Galileo/poky/build$ echo 'MACHINE = "intel-quark"' >> conf/local
 xe1gyq@jessie:~/Galileo/poky/build$ 
 ```
 
+## Source Code Compilation Process
+
 ```sh
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
 Parsing recipes: 100% |#########################################| Time: 00:01:20
@@ -107,6 +113,8 @@ NOTE: Executing SetScene Tasks
 NOTE: Executing RunQueue Tasks
 NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun and all succeeded.
 ```
+
+## Compilation Outputs
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky/build$ ls
