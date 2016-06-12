@@ -249,6 +249,19 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 ```
 
 ```sh
+xe1gyq@jessie:~/Galileo/poky$ git clone https://github.com/hambedded-linux/meta-hamradio.git
+Cloning into 'meta-hamradio'...
+remote: Counting objects: 69, done.
+remote: Total 69 (delta 0), reused 0 (delta 0), pack-reused 69
+Unpacking objects: 100% (69/69), done.
+Checking connectivity... done.
+xe1gyq@jessie:~/Galileo/poky$ cd build/
+xe1gyq@jessie:~/Galileo/poky/build$ nano conf/bblayers.conf 
+```
 
+```sh
 
+```
+
+```sh
 ```
