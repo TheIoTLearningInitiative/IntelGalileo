@@ -28,8 +28,6 @@ xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'```
-
-```sh
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
 ```
 
