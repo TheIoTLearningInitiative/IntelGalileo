@@ -256,6 +256,7 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 
 ```sh
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake virtual/kernel -c menuconfig
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile virtual/kerne
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers show-recipes
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake -c menuconfig busybox
 xe1gyq@jessie:~/Galileo/poky/build$ nano conf/local.conf
