@@ -255,8 +255,6 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 - [Build and Deploy Yocto](http://android.serverbox.ch/?p=1273)
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake virtual/kernel -c menuconfig
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile virtual/kerne
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers show-recipes
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake -c menuconfig busybox
 xe1gyq@jessie:~/Galileo/poky/build$ nano conf/local.conf
@@ -265,6 +263,13 @@ xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile busybox
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
 xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
 xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
+```
+
+## Intel Galileo Yocto Kernel
+
+```sh
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake virtual/kernel -c menuconfig
+xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile virtual/kerne
 ```
 
 ## Intel Galileo Yocto Kernel RT
