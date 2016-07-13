@@ -17,7 +17,7 @@
 * Subsystems
    * [WiFi](documentation/WiFi.md)
    * [Serial](documentation/Serial.md)
-   * Serial Peripheral Interface
+   * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
 * [Arduino](documentation/Arduino.md)
 * [Sandbox](documentation/Sandbox.md)
 
