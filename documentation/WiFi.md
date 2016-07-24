@@ -1,5 +1,4 @@
-WiFi
-==
+# WiFi
 
 - [Internet Connectivity Galileo](https://software.intel.com/en-us/internet-connectivity-galileo)
   - Ethernet Connectivity
