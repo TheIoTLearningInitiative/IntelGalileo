@@ -5,18 +5,6 @@ Processor
 
 - [Intel® Quark™ SoC Family Ark](http://ark.intel.com/products/family/79047)
 
-> "Lakemont" (32 nm)
-> > The name Lakemont has been used in reference to the processor core in multiple Quark-series processors.
-
-> "Clanton"
-> > [Quark X1000](Intel® Quark™ SoC X1000) .. [Quark X1021D](http://ark.intel.com/products/81329)
-
-> "Silver Butte"
-> > [Quark D1000](http://ark.intel.com/products/86826)
-
-> "Mint Valley"
-> > [Quark D2000](http://ark.intel.com/products/91947)
-
 ## Intel® Quark Core
 
 > The Intel® Quark Core enables a range of low-cost, high-performance embedded system designs capable of running applications written for IA-32 architecture.
@@ -34,4 +22,3 @@ Processor
 - [Mouser Intel® Quark™ SoC X1000](http://www.mouser.mx/new/intel/intel-quark-x1000/)
 - [Intelligent Factory Applications for Intel® Quark™ SoC X1000: Video](http://www.intel.com/content/www/us/en/embedded/products/quark/soc-x1000-intelligent-factory-applications-training-video.html)
 - [Intel® Quark™ SoC X1000 Series Interview](http://www.intel.com/content/www/us/en/intelligent-systems/quark/quark-x1000-interview.html)
--
