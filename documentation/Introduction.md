@@ -1,5 +1,4 @@
-Intel® Galileo
-==
+# Intel® Galileo
 
 > Intel Galileo is the first in a line of Arduino-certified development boards based on Intel x86 architecture and is designed for the maker and education communities. Intel released two versions of Galileo, referred to as Gen 1 and Gen 2. [Wikipedia](https://en.wikipedia.org/wiki/Intel_Galileo)
 
