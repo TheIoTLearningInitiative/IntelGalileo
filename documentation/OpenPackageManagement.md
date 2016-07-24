@@ -1,5 +1,4 @@
-Open Package Management
-==
+# Open Package Management
 
 - [AlexT's Galileo & Edison pages](http://alextgalileo.altervista.org/package-repo-configuration-instructions.html)
 
