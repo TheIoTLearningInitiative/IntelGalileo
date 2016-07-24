@@ -1,5 +1,4 @@
-Peripherals
-==
+# Peripherals
 
 ## Power Management Features
 
