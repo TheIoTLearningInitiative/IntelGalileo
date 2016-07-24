@@ -1,5 +1,17 @@
 # Sandbox
 
+> "Lakemont" (32 nm)
+> > The name Lakemont has been used in reference to the processor core in multiple Quark-series processors.
+
+> "Clanton"
+> > [Quark X1000](Intel® Quark™ SoC X1000) .. [Quark X1021D](http://ark.intel.com/products/81329)
+
+> "Silver Butte"
+> > [Quark D1000](http://ark.intel.com/products/86826)
+
+> "Mint Valley"
+> > [Quark D2000](http://ark.intel.com/products/91947)
+
 ## Not Working
 
 - [Creating a Yocto Image for Inteñ® Galileo Board Using Split Layers](https://software.intel.com/en-us/blogs/2015/03/04/creating-a-yocto-image-for-the-intel-galileo-board-using-split-layers)
