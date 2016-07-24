@@ -32,3 +32,4 @@ Processor
 - Intel® Quark™ SoC X1000 Software Release Notes
 - Intel® Quark™ SoC X1000 UEFI Firmware Writer’s Guide
 - [Mouser Intel® Quark™ SoC X1000](http://www.mouser.mx/new/intel/intel-quark-x1000/)
+- [Intelligent Factory Applications for Intel® Quark™ SoC X1000: Video](http://www.intel.com/content/www/us/en/embedded/products/quark/soc-x1000-intelligent-factory-applications-training-video.html)
