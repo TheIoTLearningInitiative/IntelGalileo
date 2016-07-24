@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* Summary
 * [Introduction](documentation/Introduction.md)
 * About This Training
 * [Hardware](documentation/Hardware.md)
@@ -21,5 +22,4 @@
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
 * [Arduino](documentation/Arduino.md)
 * [Sandbox](documentation/Sandbox.md)
-* Summary
 
