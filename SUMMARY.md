@@ -5,6 +5,7 @@
 * [Introduction](documentation/Introduction.md)
 * About This Training
    * Objectives
+   * Skills
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [Components](documentation/Components.md)
