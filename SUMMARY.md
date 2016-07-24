@@ -6,7 +6,7 @@
 * About This Training
    * [Objectives](documentation/Objectives.md)
    * [Skills](documentation/Skills.md)
-   * Prerequisites
+   * [Prerequisites](documentation/Prerequisites.md)
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [Components](documentation/Components.md)
