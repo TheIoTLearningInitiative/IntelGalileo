@@ -34,3 +34,4 @@ Processor
 - [Mouser Intel® Quark™ SoC X1000](http://www.mouser.mx/new/intel/intel-quark-x1000/)
 - [Intelligent Factory Applications for Intel® Quark™ SoC X1000: Video](http://www.intel.com/content/www/us/en/embedded/products/quark/soc-x1000-intelligent-factory-applications-training-video.html)
 - [Intel® Quark™ SoC X1000 Series Interview](http://www.intel.com/content/www/us/en/intelligent-systems/quark/quark-x1000-interview.html)
+-
