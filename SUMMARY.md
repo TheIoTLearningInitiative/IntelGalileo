@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
+* About This Training
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [Components](documentation/Components.md)
@@ -20,5 +21,4 @@
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
 * [Arduino](documentation/Arduino.md)
 * [Sandbox](documentation/Sandbox.md)
-* About This Training
 
