@@ -15,7 +15,13 @@ remote: Total 322331 (delta 238233), reused 321932 (delta 237835)
 Receiving objects: 100% (322331/322331), 123.57 MiB | 611.00 KiB/s, done.
 Resolving deltas: 100% (238233/238233), done.
 Checking connectivity... done.
+```
+
+```sh
 xe1gyq@jessie:~/Galileo$ cd poky
+```
+
+```sh
 xe1gyq@jessie:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
@@ -31,7 +37,13 @@ remote: Total 12302 (delta 7080), reused 12275 (delta 7053)
 Receiving objects: 100% (12302/12302), 3.96 MiB | 608.00 KiB/s, done.
 Resolving deltas: 100% (7080/7080), done.
 Checking connectivity... done.
+```
+
+```sh
 xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
+```
+
+```sh
 xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
