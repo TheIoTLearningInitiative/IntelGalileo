@@ -38,6 +38,9 @@ root@galileo:~# dmesg
 [  398.980186] usb 1-1: reset high-speed USB device number 3 using ehci-pci
 [  399.187909] ieee80211 phy1: Selected rate control algorithm 'minstrel_ht'
 [  399.304607] systemd-udevd[279]: renamed network interface wlan0 to wlp0s20f3u1
+```
+
+```sh
 root@galileo:~# connmanctl
 connmanctl> enable wifi
 connmanctl> [  632.756490] IPv6: ADDRCONF(NETDEV_UP): wlp0s20f3u1: link is not ready
