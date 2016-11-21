@@ -94,6 +94,7 @@ Common targets are:
     meta-ide-support
 
 You can also run generated qemu images with a command like 'runqemu qemux86'
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ```sh
