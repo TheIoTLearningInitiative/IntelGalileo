@@ -7,7 +7,7 @@
 ## Intel Galileo Yocto Source Code Cloning
 
 ```sh
-xe1gyq@jessie:~/Galileo$ git clone git://git.yoctoproject.org/poky
+user@workstation:~/Galileo$ git clone git://git.yoctoproject.org/poky
 Cloning into 'poky'...
 remote: Counting objects: 322331, done.
 remote: Compressing objects: 100% (78519/78519), done.
@@ -18,18 +18,18 @@ Checking connectivity... done.
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo$ cd poky
+user@workstation:~/Galileo$ cd poky
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
+user@workstation:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
-xe1gyq@jessie:~/Galileo/poky$ 
+user@workstation:~/Galileo/poky$ 
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky$ git clone git://git.yoctoproject.org/meta-intel
+user@workstation:~/Galileo/poky$ git clone git://git.yoctoproject.org/meta-intel
 Cloning into 'meta-intel'...
 remote: Counting objects: 12302, done.
 remote: Compressing objects: 100% (3779/3779), done.
@@ -40,20 +40,20 @@ Checking connectivity... done.
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky$ cd meta-intel/
+user@workstation:~/Galileo/poky$ cd meta-intel/
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
+user@workstation:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
-xe1gyq@jessie:~/Galileo/poky/meta-intel$ 
+user@workstation:~/Galileo/poky/meta-intel$ 
 ```
 
 ## Intel Galileo Yocto Source Code Configuration
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky$ source oe-init-build-env
+user@workstation:~/Galileo/poky$ source oe-init-build-env
 You had no conf/local.conf file. This configuration file has therefore been
 created for you with some default values. You may wish to edit it to, for
 example, select a different MACHINE (target hardware). See conf/local.conf
@@ -85,15 +85,15 @@ You can also run generated qemu images with a command like 'runqemu qemux86'
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers add-layer "$HOME/Galileo/poky/meta-intel"
-xe1gyq@jessie:~/Galileo/poky/build$ echo 'MACHINE = "intel-quark"' >> conf/local.conf
-xe1gyq@jessie:~/Galileo/poky/build$ 
+user@workstation:~/Galileo/poky/build$ bitbake-layers add-layer "$HOME/Galileo/poky/meta-intel"
+user@workstation:~/Galileo/poky/build$ echo 'MACHINE = "intel-quark"' >> conf/local.conf
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ## Intel Galileo Yocto Source Code Compilation Process
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
+user@workstation:~/Galileo/poky/build$ bitbake core-image-minimal
 Parsing recipes: 100% |#########################################| Time: 00:01:20
 Parsing of 886 .bb files complete (0 cached, 886 parsed). 1317 targets, 48 skipped, 0 masked, 0 errors.
 NOTE: Resolving any missing task queue dependencies
@@ -131,9 +131,9 @@ NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun an
 ## Intel Galileo Yocto Compilation Outputs
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ ls
+user@workstation:~/Galileo/poky/build$ ls
 bitbake.lock  cache  conf  downloads  sstate-cache  tmp
-xe1gyq@jessie:~/Galileo/poky/build$ ls tmp/deploy/images/intel-quark/
+user@workstation:~/Galileo/poky/build$ ls tmp/deploy/images/intel-quark/
 bzImage
 bzImage--4.4.3+git0+9ab4787fe2_076cc85486-r0-intel-quark-20160612054437.bin
 bzImage-intel-quark.bin
@@ -155,7 +155,7 @@ microcode.cpio
 modules--4.4.3+git0+9ab4787fe2_076cc85486-r0-intel-quark-20160612054437.tgz
 modules-intel-quark.tgz
 README_-_DO_NOT_DELETE_FILES_IN_THIS_DIRECTORY.txt
-xe1gyq@jessie:~/Galileo/poky/build$ 
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ## Intel Galileo Yocto Image Creation
@@ -163,7 +163,7 @@ xe1gyq@jessie:~/Galileo/poky/build$
 - [[meta-intel] [PATCH] mkgalileodisk.wks: WiC image for Galileo Gen 1/2](https://lists.yoctoproject.org/pipermail/meta-intel/2015-November/003642.html)
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ cat ../meta-intel/scripts/lib/wic/canned-wks/mkgalileodisk.wks 
+user@workstation:~/Galileo/poky/build$ cat ../meta-intel/scripts/lib/wic/canned-wks/mkgalileodisk.wks 
 ```
 
 ```sh
@@ -181,7 +181,7 @@ bootloader  --timeout=0  --append="console=ttyS1,115200n8 earlycon=uart8250,mmio
 - [meta-intel Building for Intel Quark X1000 microprocessor](https://download.ostroproject.org/releases/ostro-os/milestone/v1.0.0/sdk-data/intel-quark/layers/ostro-os/meta-intel/README)
 
 ```
-xe1gyq@jessie:~/Galileo/poky/build$ wic list images
+user@workstation:~/Galileo/poky/build$ wic list images
   mkgalileodisk                 		Create an Galileo Gen 1/2 disk image
   directdisk-bootloader-config  		Create a 'pcbios' direct disk image with custom bootloader config
   sdimage-bootpart              		Create SD card image with a boot partition
@@ -195,7 +195,7 @@ xe1gyq@jessie:~/Galileo/poky/build$ wic list images
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
+user@workstation:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
 Checking basic build environment...
 Done.
 
@@ -207,7 +207,7 @@ Please bake it with 'bitbake parted-native' and try again.
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
+user@workstation:~/Galileo/poky/build$ bitbake parted-native
 Loading cache: 100% |############################################################| ETA:  00:00:00
 Loaded 1317 entries from dependency cache.
 Parsing recipes: 100% |##########################################################| Time: 00:00:00
@@ -233,11 +233,11 @@ NOTE: Preparing RunQueue
 NOTE: Executing SetScene Tasks
 NOTE: Executing RunQueue Tasks
 NOTE: Tasks Summary: Attempted 114 tasks of which 105 didn't need to be rerun and all succeeded.
-xe1gyq@jessie:~/Galileo/poky/build$ 
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
+user@workstation:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
 Checking basic build environment...
 Done.
 
@@ -267,21 +267,21 @@ dd if=/dev/zero of=/dev/sdf bs=1M count=512
 - [Build and Deploy Yocto](http://android.serverbox.ch/?p=1273)
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake-layers show-recipes
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake -c menuconfig busybox
-xe1gyq@jessie:~/Galileo/poky/build$ nano conf/local.conf
+user@workstation:~/Galileo/poky/build$ bitbake-layers show-recipes
+user@workstation:~/Galileo/poky/build$ bitbake -c menuconfig busybox
+user@workstation:~/Galileo/poky/build$ nano conf/local.conf
 CORE_IMAGE_EXTRA_INSTALL += "dropbear"
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile busybox
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake core-image-minimal
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake parted-native
-xe1gyq@jessie:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
+user@workstation:~/Galileo/poky/build$ bitbake -f -c compile busybox
+user@workstation:~/Galileo/poky/build$ bitbake core-image-minimal
+user@workstation:~/Galileo/poky/build$ bitbake parted-native
+user@workstation:~/Galileo/poky/build$ wic create mkgalileodisk -e core-image-minimal
 ```
 
 ## Intel Galileo Yocto Kernel
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake virtual/kernel -c menuconfig
-xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile virtual/kerne
+user@workstation:~/Galileo/poky/build$ bitbake virtual/kernel -c menuconfig
+user@workstation:~/Galileo/poky/build$ bitbake -f -c compile virtual/kerne
 ```
 
 ## Intel Galileo Yocto Kernel RT
@@ -289,14 +289,14 @@ xe1gyq@jessie:~/Galileo/poky/build$ bitbake -f -c compile virtual/kerne
 [Galileo RT_Preempt](https://communities.intel.com/thread/48816)
 
 ```sh
-xe1gyq@jessie:~/Galileo/poky$ git clone https://github.com/hambedded-linux/meta-hamradio.git
+user@workstation:~/Galileo/poky$ git clone https://github.com/hambedded-linux/meta-hamradio.git
 Cloning into 'meta-hamradio'...
 remote: Counting objects: 69, done.
 remote: Total 69 (delta 0), reused 0 (delta 0), pack-reused 69
 Unpacking objects: 100% (69/69), done.
 Checking connectivity... done.
-xe1gyq@jessie:~/Galileo/poky$ cd build/
-xe1gyq@jessie:~/Galileo/poky/build$ nano conf/bblayers.conf 
+user@workstation:~/Galileo/poky$ cd build/
+user@workstation:~/Galileo/poky/build$ nano conf/bblayers.conf 
 ```
 
 ```sh
