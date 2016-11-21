@@ -8,9 +8,6 @@
 
 ```sh
 user@workstation:~/Galileo$ git clone git://git.yoctoproject.org/poky
-```
-
-```sh
 Cloning into 'poky'...
 remote: Counting objects: 322331, done.
 remote: Compressing objects: 100% (78519/78519), done.
@@ -26,9 +23,6 @@ user@workstation:~/Galileo$ cd poky
 
 ```sh
 user@workstation:~/Galileo/poky$ git checkout -b krogoth origin/krogoth
-```
-
-```sh
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
 user@workstation:~/Galileo/poky$ 
