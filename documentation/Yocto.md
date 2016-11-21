@@ -37,14 +37,17 @@ remote: Total 12302 (delta 7080), reused 12275 (delta 7053)
 Receiving objects: 100% (12302/12302), 3.96 MiB | 608.00 KiB/s, done.
 Resolving deltas: 100% (7080/7080), done.
 Checking connectivity... done.
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ```sh
 user@workstation:~/Galileo/poky$ cd meta-intel/
+user@workstation:~/Galileo/poky/meta-intel$ 
 ```
 
 ```sh
 user@workstation:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
+user@workstation:~/Galileo/poky/meta-intel$ 
 ```
 
 ```sh
