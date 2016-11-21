@@ -16,7 +16,7 @@
 * User Space
    * Package Management Systems
        * [Open Package Management](documentation/OpenPackageManagement.md)
-       * [Python Package Index](PythonPackageIndex.md)
+       * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Firmware](documentation/Firmware.md)
 * [Customization](documentation/Customization.md)
 * Subsystems
