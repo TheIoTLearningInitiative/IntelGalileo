@@ -51,6 +51,9 @@ user@workstation:~/Galileo/poky$ cd meta-intel/
 
 ```sh
 user@workstation:~/Galileo/poky/meta-intel$ git checkout -b krogoth origin/krogoth
+```
+
+```sh
 Branch krogoth set up to track remote branch krogoth from origin.
 Switched to a new branch 'krogoth'
 user@workstation:~/Galileo/poky/meta-intel$ 
