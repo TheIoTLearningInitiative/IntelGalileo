@@ -148,6 +148,9 @@ NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun an
 ```sh
 user@workstation:~/Galileo/poky/build$ ls
 bitbake.lock  cache  conf  downloads  sstate-cache  tmp
+```
+
+```sh
 user@workstation:~/Galileo/poky/build$ ls tmp/deploy/images/intel-quark/
 bzImage
 bzImage--4.4.3+git0+9ab4787fe2_076cc85486-r0-intel-quark-20160612054437.bin
