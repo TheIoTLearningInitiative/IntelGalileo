@@ -7,6 +7,12 @@
 ## Intel Galileo Yocto Source Code Cloning
 
 ```sh
+user@workstation:~$ mkdir Galileo
+user@workstation:~$ cd Galileo
+user@workstation:~/Galileo$
+```
+
+```sh
 user@workstation:~/Galileo$ git clone git://git.yoctoproject.org/poky
 Cloning into 'poky'...
 remote: Counting objects: 322331, done.
