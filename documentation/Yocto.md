@@ -99,6 +99,7 @@ user@workstation:~/Galileo/poky/build$
 
 ```sh
 user@workstation:~/Galileo/poky/build$ bitbake-layers add-layer "$HOME/Galileo/poky/meta-intel"
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ```sh
