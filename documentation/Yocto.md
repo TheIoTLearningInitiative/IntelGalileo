@@ -9,7 +9,7 @@
 ```sh
 user@workstation:~$ mkdir Galileo
 user@workstation:~$ cd Galileo
-user@workstation:~/Galileo$
+user@workstation:~/Galileo$ 
 ```
 
 ```sh
