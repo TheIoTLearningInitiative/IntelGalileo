@@ -77,7 +77,6 @@ connmanctl> quit
 root@galileo:~# 
 ```
 
-
 ```sh
 root@galileo:~# ifconfig
 enp0s20f6 Link encap:Ethernet  HWaddr 98:4F:EE:01:77:6D
