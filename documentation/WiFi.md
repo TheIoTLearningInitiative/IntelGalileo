@@ -74,6 +74,11 @@ connmanctl> [  739.164070] wlp0s20f3u1: authenticate with c0:56:27:89:7e:57
 [  739.312999] IPv6: ADDRCONF(NETDEV_CHANGE): wlp0s20f3u1: link becomes ready
 Connected wifi_e84e06099fef_504f53414441204445204c41204d4f4e454441_managed_psk
 connmanctl> quit
+root@galileo:~# 
+```
+
+
+```sh
 root@galileo:~# ifconfig
 enp0s20f6 Link encap:Ethernet  HWaddr 98:4F:EE:01:77:6D
           inet6 addr: fe80::9a4f:eeff:fe01:776d/64 Scope:Link
@@ -107,6 +112,9 @@ wlp0s20f3u1 Link encap:Ethernet  HWaddr E8:4E:06:09:9F:EF
           TX packets:50 errors:0 dropped:0 overruns:0 carrier:0
           collisions:0 txqueuelen:1000
           RX bytes:13836 (13.5 KiB)  TX bytes:9501 (9.2 KiB)
+```
+
+```sh
 root@galileo:~# opkg update
 Downloading http://iotdk.intel.com/repos/1.5/iotdk/all/Packages.
 Updated list of available packages in /var/lib/opkg/iotdk-all.
