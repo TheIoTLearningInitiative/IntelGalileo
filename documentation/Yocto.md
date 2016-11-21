@@ -141,6 +141,7 @@ NOTE: Preparing RunQueue
 NOTE: Executing SetScene Tasks
 NOTE: Executing RunQueue Tasks
 NOTE: Tasks Summary: Attempted 2378 tasks of which 15 didn't need to be rerun and all succeeded.
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ## Intel Galileo Yocto Compilation Outputs
