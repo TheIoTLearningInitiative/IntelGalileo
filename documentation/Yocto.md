@@ -277,6 +277,7 @@ The following build artifacts were used to create the image(s):
 
 The image(s) were created using OE kickstart file:
   /home/xe1gyq/Galileo/poky/meta-intel/scripts/lib/wic/canned-wks/mkgalileodisk.wks
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ```sh
