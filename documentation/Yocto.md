@@ -225,6 +225,7 @@ Creating image(s)...
 Error: A native program parted required to build the image was not found (see details above).
 
 Please bake it with 'bitbake parted-native' and try again.
+user@workstation:~/Galileo/poky/build$ 
 ```
 
 ```sh
