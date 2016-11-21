@@ -89,6 +89,9 @@ You can also run generated qemu images with a command like 'runqemu qemux86'
 
 ```sh
 user@workstation:~/Galileo/poky/build$ bitbake-layers add-layer "$HOME/Galileo/poky/meta-intel"
+```
+
+```sh
 user@workstation:~/Galileo/poky/build$ echo 'MACHINE = "intel-quark"' >> conf/local.conf
 user@workstation:~/Galileo/poky/build$ 
 ```
