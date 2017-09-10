@@ -339,5 +339,51 @@ BBLAYERS ?= " \
   "
 ```
 
+# Others
+
 ```sh
+The images are based on the 'dizzy' branch of poky:
+$ git clone --branch dizzy git://git.yoctoproject.org/poky iotdk
+$ cd iotdk
+
+Add a number of layers on top:
+$ git clone --branch dizzy git://git.yoctoproject.org/meta-intel-quark
+$ git clone --branch dizzy git://git.yoctoproject.org/meta-intel-iot-middleware
+$ git clone --branch dizzy git://git.yoctoproject.org/meta-intel-galileo
+$ git clone git://git.yoctoproject.org/meta-intel-iot-devkit
+$ git clone --branch dizzy http://github.com/openembedded/meta-openembedded.git meta-oe
+
+Source the oe env vars for OE:
+$ source oe-init-build-env
+
+You should be in a newly created build/ subdirectory. Set up your layer configuration from this directory by opening a new file, conf/bblayers.conf. The file's contents should read something like this, note that you need to change the layer paths to be changed.
+
+LCONF_VERSION = "6"
+BBPATH = "${TOPDIR}"
+BBFILES ?=""
+BBLAYERS += " \
+${TOPDIR}/../meta \
+${TOPDIR}/../meta-yocto \
+${TOPDIR}/../meta-yocto-bsp \
+${TOPDIR}/../meta-oe/meta-oe \
+${TOPDIR}/../meta-oe/meta-filesystems \
+${TOPDIR}/../meta-intel-quark \
+${TOPDIR}/../meta-intel-galileo \
+${TOPDIR}/../meta-intel-iot-middleware \
+${TOPDIR}/../meta-intel-iot-devkit"
+
+
+Set up the distro and your build settings. Place the following in a new file called conf/auto.conf:
+
+DISTRO = "iot-devkit-multilibc"
+PACKAGE_CLASSES = "package_ipk"
+MACHINE = "quark"
+
+Run the build system:
+$ bitbake iot-devkit-prof-dev-image
+
+After this, you should have nearly everything. The next step is to make a bootable uSD card image. We use a tool called 'wic':
+$ ../meta-intel-iot-devkit/scripts/wic_monkey create -e iot-devkit-prof-dev-image ../meta-intel-iot-devkit/scripts/lib/image/canned-wks/iot-devkit.wks
+
+Once wic has finished it will print the path to a  .directfile in /var/tmp/wic/build/. Write it with dd to your uSD card (remember to use sync before removing it!) and pop it in your Intel Galileo board.
 ```
